@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <title>Html form</title>
+</head>
+
+<body>
+    <form action="" method="">
+        FirstName:<br>
+        <input type="text" name="FirstName" placeholder="First Name">
+        <br>
+        LastName:<br> <input type="text" name="FirstName" placeholder="Last Name"><br>
+        Email:<br>
+        <input type="text" name="Email" placeholder="your email">
+        <br>
+        Gender:<br>
+        <input type="radio" name="Gender">Male
+        <input type="radio" name="Gender">Female
+        <br>
+        Country:<br>
+        <!-- for default county setup, just put 'selected' within option-->
+        <select name="country">
+            <option value="">USA</option>
+            <option value="">CANADA</option>
+            <option value="">INDIA</option>
+            <option value="">NEPAL</option>
+            <option value="" selected>BANGLADESH</option>
+            <option value="">ENGLAD</option>
+        </select>
+        <br>
+        Birth-Date:<br>
+        <!-- just use 'date'as a value of type-->
+        <input type="date">
+        <br>
+        <button type=" submit">SUBMIT</button>
+        <button type="reset">RESET</button>
+    </form>
+</body>
+
+</html>
